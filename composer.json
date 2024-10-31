@@ -46,10 +46,7 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ],
-        "dev": "vite",
-        "build": "vite build",
-        "heroku-postbuild": "npm run build"
+        ]
     },
     "extra": {
         "laravel": {
